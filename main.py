@@ -59,6 +59,7 @@ async def get_album(album_id: int):
 async def post_album(album: AlbumLanaDelRey):
     next_id = len(albuns_lana_del_rey) + 1
     albuns_lana_del_rey[next_id] = album.dict()
+    albuns_lana_del_rey[next_id].pop("id", None)
     return albuns_lana_del_rey[next_id]
 
 @app.put("/albuns/{album_id}", status_code=status.HTTP_202_ACCEPTED, description="Atualiza um álbum existente")
