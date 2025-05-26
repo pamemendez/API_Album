@@ -1,5 +1,10 @@
-# API Lana Del Rey
 
-Esta é uma API simples criada para fornecer informações e conteúdos relacionados à cantora Lana Del Rey. A API oferece dados como discografia, letras, biografia e curiosidades, ideal para fãs e desenvolvedores que queiram integrar conteúdos da artista em seus projetos.
 
-![Image](https://github.com/user-attachments/assets/ce4fa3c0-b5c6-460a-b006-79ee0334d3d3)
+{
+    "nome": "Evermore",
+    "ano_lancamento": 2020,
+    "capa_url": "https://upload.wikimedia.org/wikipedia/pt/a/a6/Taylor_Swift_-_Evermore.png",
+    "descricao": "Álbum de folk e indie, com letras poéticas e um tom introspectivo, que continua a exploração de temas emocionais e narrativas."
+}
+
+album de teste
